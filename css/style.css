@@ -30,6 +30,7 @@
     top: 50%;
     transform: translateY(-50%);
     right: 102%;
+    cursor: pointer;
 }
 
 #next{
@@ -37,4 +38,5 @@
     top: 50%;
     transform: translateY(-50%);
     left: 102%;
+    cursor: pointer;
 }
