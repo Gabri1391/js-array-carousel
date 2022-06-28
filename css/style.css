@@ -1,7 +1,9 @@
+/* CAROUSEL */
+
 #carousel-section{
     width: 600px;
     height: 300px;
-    margin: 100px auto;
+    margin: 50px auto;
     position: relative;
 }
 
@@ -25,6 +27,8 @@
     font-size: 50px;
 }
 
+/* BUTTONS */
+
 #previous{
     position: absolute;
     top: 50%;
@@ -39,4 +43,27 @@
     transform: translateY(-50%);
     left: 102%;
     cursor: pointer;
+}
+
+/* THUMBNAILS */
+
+#thumbnails{
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#thumbnails img{
+    width: 19%;
+    height:100%;
+    border-radius: 15px;
+    filter: grayscale(1);
+}
+
+#thumbnails img.active{
+    filter: grayscale(0);
+    box-shadow: 0 0  8px royalblue;
 }
